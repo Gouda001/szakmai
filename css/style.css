@@ -2266,6 +2266,8 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 	position: absolute;
 	width: 600px;
 	height: 600px;
+	min-height: 600px;
+	min-width: 600px;
 	border-radius: 5px;
 	background-color: #FFF;
 	left: 50%;
@@ -2278,6 +2280,10 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 	height: 3px;
 	width: 120px;
 	background-color: #333;
+	display: grid;
+	grid-gap: 60px;
+	grid-template-columns: auto auto auto;
+
 
 }
 
@@ -2393,6 +2399,9 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 
 .active {
 	background-color: #2d2d2d;
+	color: #ddd;
+	font-size: 15px;
+	font-weight: 500;
 }
 
 
@@ -2424,7 +2433,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 		background-color: #FFF;
 		left: 0px;
 		margin-left: 15px;
-		top: 150px;
+		top: 10%;
 		margin-top: 10px;
 	}
 
