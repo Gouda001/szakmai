@@ -2124,6 +2124,7 @@ figcaption {
 	width: 75%;
 	margin-left: 25%;
 	padding: 50px;
+
 }
 
 .footer-text {
@@ -2248,8 +2249,16 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 	height: 100%;
 	top: 0px;
 	left: 0px;
-	z-index: 1000;
+	z-index: 2;
 	display: none;
+
+}
+
+#popup_bg img {
+	float: right;
+	height: 50px;
+	padding: 15px;
+	cursor: pointer;
 
 }
 
@@ -2336,7 +2345,9 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 .topnav {
 	overflow: hidden;
 	background-color: #333;
-	position: relative;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
 	display: none;
 	text-align: center;
 }
@@ -2396,12 +2407,25 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 
 	.content {
 		width: 100%;
-		padding: 0px;
+		padding: 15px;
+		padding-top: 60px;
 		margin-left: 0px;
 	}
 
 	.topnav {
 		display: block;
+	}
+
+	#popup_main {
+		position: absolute;
+		width: 95%;
+		height: 70%;
+		border-radius: 5px;
+		background-color: #FFF;
+		left: 0px;
+		margin-left: 15px;
+		top: 150px;
+		margin-top: 10px;
 	}
 
 
