@@ -2267,7 +2267,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 	width: 600px;
 	height: 600px;
 	min-height: 600px;
-	min-width: 600px;
+
 	border-radius: 5px;
 	background-color: #FFF;
 	left: 50%;
@@ -2280,9 +2280,6 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 	height: 3px;
 	width: 120px;
 	background-color: #333;
-	display: grid;
-	grid-gap: 60px;
-	grid-template-columns: auto auto auto;
 
 
 }
@@ -2428,7 +2425,6 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 	#popup_main {
 		position: absolute;
 		width: 95%;
-		height: 70%;
 		border-radius: 5px;
 		background-color: #FFF;
 		left: 0px;
@@ -2437,5 +2433,39 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 		margin-top: 10px;
 	}
 
+	.answer {
+		margin-left: 50px;
+	}
 
+
+
+
+
+}
+
+@media screen and (max-width: 580px) {
+
+	.answer-bar {
+		height: 3px;
+		width: 50px;
+		background-color: #333;
+	}
+
+	#answer-bar-0 {
+
+		margin-left: 90px;
+	}
+
+	#answer-bar-1 {
+
+		margin-left: 150px;
+	}
+
+	#answer-bar-2 {
+		margin-left: 210px;
+	}
+
+	#answer-bar-3 {
+		margin-left: 270px;
+	}
 }
